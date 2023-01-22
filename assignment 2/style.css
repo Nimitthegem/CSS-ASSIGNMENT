@@ -1,0 +1,56 @@
+h1, h2, h3, h4, h5 {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(243, 238, 85);
+  }
+
+  h4 {
+    width: 50vw;
+    height: 100%;
+    background-color: rgb(110, 231, 110);
+  }
+
+   /* Using the child combinator (>) */
+   div > p {
+    color: red;
+  }
+
+  /* Using the adjacent sibling combinator (+) */
+  h1 + p {
+    color: blue;
+  }
+
+  /* Using the general sibling combinator (~) */
+  h2 ~ p {
+    color: green;
+  }
+
+   /* Define the transition */
+   .box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(236, 128, 222);
+    transition: width 2s, height 2s;
+  }
+
+  /* Define the transform */
+  .box:hover {
+    width: 200px;
+    height: 200px;
+    transform: rotate(45deg);
+  }

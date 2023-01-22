@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    padding-top: 20px 20px;
+    background:rgb(223, 249, 197);
+        color: rgb(180, 97, 114);
+    position: fixed;
+    
+   
+}
+
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid crimson;
+    border-radius: 5px;
+    background-color:rgb(245, 220, 220);
+  }
+  
+  /* Form heading */
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+  }
+  
+  /* Form labels */
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(4, 39, 152);
+  }
+  span{
+    font-weight: bold;
+    color: rgb(4, 39, 152)
+  }
+  
+  /* Input fields */
+  input[type="text"],
+  input[type="tel"],
+  input[type="date"],
+  textarea {
+    width: 94%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 2px solid crimson;
+    border-radius: 4px;
+  }
+  
+  /* Radio buttons and checkboxes */
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+ 
+  
+  /* Select field */
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Submit and reset buttons */
+  input[type="submit"],
+  input[type="reset"] {
+    width: 100%;
+    background-color: #99ea9d;
+    color: white;
+    padding: 14px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Submit button hover effect */
+  input[type="submit"]:hover {
+    background-color: #99ea9d;
+  }
+
+
+
+/* Table styles */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+
+ /* Set the container to be relative */
+ .container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border: 3px solid black;
+}
+/* Set the absolute positioned element */
+.absolute {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+/* Set the fixed positioned element */
+.fixed {
+  position: fixed;
+  top: 80px;
+  left: 80px;
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+}
+/* Set the sticky positioned element */
+.sticky {
+  position: sticky;
+  top: 10px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: green;
+}
+/* float properties */
+.left {
+width: 25%;
+float: left;
+border: 1px solid red;
+}
+
+.right {
+width: 75%;
+float: right;
+border: 1px solid blue;
+}
+/* visibility concepts */
+.visible {
+visibility: visible;
+}
+
+.not-visible {
+visibility: hidden;
+}
+
+/* Block element */
+.block {
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+  }
+
+  /* Inline element */
+  .inline {
+    display: inline;
+    color: white;
+    font-size: 20px;
+  }
+
+  /* Override element */
+  .override {
+    color: red !important;
+  }
